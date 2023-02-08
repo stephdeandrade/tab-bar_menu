@@ -1,0 +1,155 @@
+@import "libs/reset.scss";
+
+body{
+    background-color: #e07d20;
+    transition: all .2s ease-in;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-bar{
+    width: 40%;
+    display: inline-block;
+    height: 18%;
+}
+
+.button-top{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.button-bottom{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+}
+
+.icon-button{
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.icon-button svg{
+    fill: #fff;
+    position: relative;
+    z-index: 99999;
+}
+
+.button-top svg{
+    height: 4vh;
+    fill:  rgb(32, 32, 32);
+    
+}
+
+.circle-violet{
+    border-radius: 99999px;
+    background-color: #b83eb8;    
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    z-index: 20;
+}
+.circle-red{
+    border-radius: 99999px;
+    background-color: #d63030;    
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    z-index: 20;
+}
+
+.circle-orange{
+    border-radius: 99999px;
+    background-color: #e07d20;    
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    z-index: 20;
+}
+
+.circle-green{
+    border-radius: 99999px;
+    background-color: #4bbd28;    
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    z-index: 20;
+}
+
+.circle-blue{
+    border-radius: 99999px;
+    background-color: #286ebd;    
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    z-index: 20;
+}
+
+.active{
+    transform: translateY(-30px);
+    transition: all 0.2s ease-in-out;
+}
+.opacity{
+    opacity: 0;
+    transform: scale(.5);
+    
+}
+
+.active > .opacity{
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.menu_items{
+    transition: 0.2s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-top{
+    display: flex;
+    transition: all 0.2s ease-in;
+}
+
+.active-1{
+    transform: translateX(-17px);
+    transition: all 0.2s ease-in;
+
+
+}
+.active-2{
+    transform: translateX(112px);
+    transition: all 0.2s ease-in;
+
+}
+.active-3{
+    transform: translateX(243px);
+    transition: all 0.2s ease-in;
+
+}
+.active-4{
+    transform: translateX(374px);
+    transition: all 0.2s ease-in;
+
+}
+.active-5{
+    transform: translateX(503px);
+    transition: all 0.2s ease-in;
+
+}
