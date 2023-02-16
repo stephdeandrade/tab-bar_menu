@@ -1,6 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #e07d20;
   transition: all 0.2s ease-in;
+  overflow: hidden;
 }
 
 .main {
