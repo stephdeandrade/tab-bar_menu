@@ -1,8 +1,14 @@
 @import "libs/reset.scss";
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #e07d20;
     transition: all .2s ease-in;
+    overflow: hidden;
 }
 
 .main{
@@ -128,28 +134,28 @@ body{
 }
 
 .active-1{
-    transform: translateX(-17px);
+    transform: translateX(-2.8vh);
     transition: all 0.2s ease-in;
 
 
 }
 .active-2{
-    transform: translateX(112px);
+    transform: translateX(10.5vh);
     transition: all 0.2s ease-in;
 
 }
 .active-3{
-    transform: translateX(243px);
+    transform: translateX(23.4vh);
     transition: all 0.2s ease-in;
 
 }
 .active-4{
-    transform: translateX(374px);
+    transform: translateX(36.8vh);
     transition: all 0.2s ease-in;
 
 }
 .active-5{
-    transform: translateX(503px);
+    transform: translateX(49.8vh);
     transition: all 0.2s ease-in;
 
 }
